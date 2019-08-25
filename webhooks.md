@@ -1,3 +1,5 @@
+# Webhooks handling
+
 
 ## Existing solutions
 
@@ -33,6 +35,8 @@ The are some gems created to handle webhooks from specific services:
 
 - Dabble.me [processes Paypal, PayHere and Gumroad webhooks](https://github.com/parterburn/dabble.me/blob/bfab96a9074d5c71c45a98f35652a732ad633f38/app/controllers/payments_controller.rb)
 
+- Octobox [handles GitHub webhooks](https://github.com/octobox/octobox/blob/e6696555fce94fc429f2cee83920090ff88dde2c/app/controllers/hooks_controller.rb)
+  - https://github.com/octobox/octobox/blob/e593cd64ddfba417036da956fa30f0ee11298891/app/workers/marketplace_purchase_worker.rb
 
 ## Useful links
 
