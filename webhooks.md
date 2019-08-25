@@ -24,6 +24,15 @@ The are some gems created to handle webhooks from specific services:
 
 - Rubytoolbox [uses github_webhook](https://github.com/rubytoolbox/rubytoolbox/blob/master/app/controllers/webhooks/github_controller.rb)
 
+- Dev.to handles webhook from Twitch:
+  - https://github.com/thepracticaldev/dev.to/blob/24328417ab49a1cc253b5d82df9aa6218028d168/app/services/streams/twitch_webhook/register.rb
+  - https://github.com/thepracticaldev/dev.to/blob/ec388804df474eb7444f0204876b50c3dc867d17/app/jobs/streams/twitch_webhook_registration_job.rb
+  - https://github.com/thepracticaldev/dev.to/blob/52c60ce37e415dbe71377b26af8124bbeeb2c043/app/controllers/users_controller.rb#L44
+
+- OpenProject [handles GitHub webhooks manually](https://github.com/opf/openproject/blob/550c87a0791d66fc33503a9c4ccbdf9c0dce7a3d/modules/github_integration/lib/open_project/github_integration/hook_handler.rb)
+
+- Dabble.me [processes Paypal, PayHere and Gumroad webhooks](https://github.com/parterburn/dabble.me/blob/bfab96a9074d5c71c45a98f35652a732ad633f38/app/controllers/payments_controller.rb)
+
 
 ## Useful links
 
