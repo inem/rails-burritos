@@ -4,11 +4,12 @@
 The are some gems created to handle webhooks from specific services:
 
 ### Stripe
+
   - [stripe_event](https://github.com/integrallis/stripe_event)
 
 ### GitHub
 
-- [github_webhook](https://github.com/ssaunier/github_webhook)
+  - [github_webhook](https://github.com/ssaunier/github_webhook)
 
 
 ## Tutorials
