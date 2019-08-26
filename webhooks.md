@@ -8,6 +8,7 @@ The are some gems created to handle webhooks from specific services:
 ### Stripe
 
   - [stripe_event](https://github.com/integrallis/stripe_event)
+  - [stripe_model_callbacks](https://github.com/kaspernj/stripe_model_callbacks)
 
 ### GitHub
 
@@ -51,8 +52,20 @@ The are some gems created to handle webhooks from specific services:
 - Mergehook uses github_webhook:
   - https://github.com/ssaunier/mergehook/blob/master/app/controllers/github_webhooks_controller.rb
 
+- Thoughtbot's Upcase (Intercom webhook):
+  - https://github.com/thoughtbot/upcase/blob/master/app/controllers/webhooks/intercom_unsubscribes_controller.rb
+
+- Stripe webhooks jandling with stripe_event:
+  - https://github.com/careeer/app-careeer/tree/master/app/models/webhooks
+
+- Another github_webhook usage:
+  https://github.com/Schwarzenegger/OctoEvents/blob/master/app/controllers/github_webhooks_controller.rb
 
 ## Useful links
 
 - [Ultrahook](http://www.ultrahook.com) redirects webhooks to localhost
 - [Ngrok](https://ngrok.com/) exposes your local app on a public URL
+
+
+## Related
+

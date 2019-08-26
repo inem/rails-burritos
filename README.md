@@ -1,5 +1,5 @@
 # Rails Burritos
-See how typical tasks within Rails apps are handled in different apps
+See how typical development tasks are handled in different Rails apps
 
 ## Contents
 
@@ -8,3 +8,4 @@ See how typical tasks within Rails apps are handled in different apps
 - [Oauth callbacks](/oauth_callbacks.md)
 - [Slack](/slack.md)
 - [Background jobs](/background_jobs.md)
+
