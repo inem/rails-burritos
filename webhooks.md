@@ -38,6 +38,20 @@ The are some gems created to handle webhooks from specific services:
 - Octobox [handles GitHub webhooks](https://github.com/octobox/octobox/blob/e6696555fce94fc429f2cee83920090ff88dde2c/app/controllers/hooks_controller.rb)
   - https://github.com/octobox/octobox/blob/e593cd64ddfba417036da956fa30f0ee11298891/app/workers/marketplace_purchase_worker.rb
 
+- Dav (Stripe webhooks):
+  - https://github.com/dav-apps/rails-backend/blob/25962d127a7a67e6c2d2e12cd394a55bc39d988b/app/services/stripe_webhooks_service.rb
+  - https://github.com/dav-apps/rails-backend/blob/25962d127a7a67e6c2d2e12cd394a55bc39d988b/config/initializers/stripe.rb
+
+- Mailchimp webhooks handling:
+  - https://github.com/elm-city-craftworks/practicing-ruby-web/blob/751630511b74502eec66d2722aba55897ccadf3a/lib/mail_chimp/web_hooks.rb
+
+- RubyTogether uses stripe_event:
+  - https://github.com/rubytogether/rubytogether.org/tree/main/app/lib/stripe_event
+
+- Mergehook uses github_webhook:
+  - https://github.com/ssaunier/mergehook/blob/master/app/controllers/github_webhooks_controller.rb
+
+
 ## Useful links
 
 - [Ultrahook](http://www.ultrahook.com) redirects webhooks to localhost
